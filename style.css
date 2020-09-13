@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    background-color: #002222;
+}
+h1{
+    margin-top: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #c52f61;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.container{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+
+#snake-board{
+    background-color: #006363;
+    width: 100vmin;
+    height: 90vmin;
+    display: grid;
+    grid-template-rows: repeat(21, 1fr);
+    grid-template-columns: repeat(21, 1fr);
+    border: 10px solid #c52f61;
+}
+
+.snake{
+    background-color: #c52f61;
+    border: .25vmin solid black;
+    box-shadow: 0px 5px 10px rgba(15, 30, 63, 0.6);
+   
+}
+
+.food{
+    background-color: #002222;
+    border: .25vmin solid black;
+    border-radius: 50%;
+    box-shadow: 0px 3px 10px rgba(15, 30, 63, 0.6);
+}
